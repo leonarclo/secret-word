@@ -2,8 +2,6 @@
   Secret Word_
 </h1>
 
----
-
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/leonarclo/secret-word">
   <img src="https://img.shields.io/github/license/leonarclo/secret-word">
