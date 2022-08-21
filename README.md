@@ -1,70 +1,94 @@
-# Getting Started with Create React App
+<h1 align="center">
+  Secret Word_
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+<p align="center">
+  <img src="https://img.shields.io/github/repo-size/leonarclo/secret-word">
+  <img src="https://img.shields.io/github/last-commit/leonarclo/secret-word">
+  <img src="https://img.shields.io/github/license/leonarclo/secret-word">
+</p>
 
-In the project directory, you can run:
+<p align="center">* Status: Concluído ✅</p>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p align="center">
+  <a href="#sobre-o-projeto">Sobre</a> •
+  <a href="#demonstração">Demonstração</a> • 
+  <a href="#tecnologias-utilizadas">Tecnologias</a> •
+  <a href="#dependências">Dependências</a> •
+  <a href="#como-executar-o-projeto">Como executar</a> •
+  <a href="#licença">Licença</a>
+</p>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📑 Sobre o projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Secret Word é um projeto desenvolvido com ReactJS, que consiste em um mini-game onde o usuário precisa acertar a palavra que está escondida, tendo como dica apenas a própria dica da palavra e o número de letras que ela contém.
+O projeto foi desenvolvido para treinar os primeiros conhecimentos em React, principalmente na utilização de JSX, React Hooks e Styled Components.
 
-### `npm run build`
+##### Como jogar:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- O usuário digita uma letra no input e clica em "jogar".
+- Cada letra acertada é mostrada no seu espaço em branco correspondente da palavra secreta.
+- A cada letra errada, o usário perde 1 tentativa (inicia com 3 tentativas).
+- A cada palavra completa acertada, o usuário ganha 100 pontos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🎨 Demonstração
 
-### `npm run eject`
+<div align="center">
+  <img src="./public/assets/.github/secret-word--demo-gif.gif" alt="Demonstração do layout Desktop">
+</div>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Tecnologias utilizadas
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+As seguintes ferramentas foram utilizadas no desenvolvimento do projeto:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [**HTML**](https://html.com/)
+- [**CSS**](https://www.w3.org/Style/CSS/)
+- [**React**](https://reactjs.org/)
+- [**NodeJS**](https://nodejs.org/en/)
+- [**Visual Studio Code**](https://code.visualstudio.com/)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🧲 Dependências
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [x] **[ESLint](https://eslint.org/)**
+- [x] **[Webpack](https://webpack.js.org/)**
+- [x] **[Babel](https://babeljs.io/)**
+- [x] **[ReactDOM](https://pt-br.reactjs.org/docs/react-dom.html)**
+- [x] **[Styled Components](https://styled-components.com/)**
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🛠️ Como executar o projeto
 
-### Analyzing the Bundle Size
+#### Pré-requisitos
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Além de um <u>navegador de internet atualizado</u>, você precisa ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/) e um editor de código como [VSCode](https://code.visualstudio.com/). Então, siga as instruções abaixo:
 
-### Making a Progressive Web App
+```bash
+# Clone este repositório:
+$ git clone https://github.com/leonarclo/secret-word.git
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+# Entre no diretório:
+$ cd secret-word
 
-### Advanced Configuration
+# Visualizaçao:
+$ npx liver-server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+```
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📝 Licença
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a licença MIT. Para mais detalhes, acesse o arquivo [LICENSE.md](https://github.com/leonarclo/secret-word/blob/main/LICENSE).
